@@ -1,0 +1,18 @@
+It has been suggested as a new convention to name binary distributions
+something like
+
+    package-version-bin-binversion-processor-os-compiler
+
+with the "-bin-" part being verbatim.
+
+The existence of binary packages also implicates that there's a need
+for specific README files for the port. Maybe we should give such
+README files names that mimic the name of the distribution file?
+We could append everything after "-bin-" after a dot, e.g.
+
+    README.01-processor-os-compiler
+
+It's just a suggestion. _This_ README file is just a test if PAUSE
+is programmed to support this suggestion or not.
+
+andreas koenig, 1998-01-31
